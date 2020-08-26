@@ -10,13 +10,13 @@ A parent is responsible for each pupil (unless the pupil is a self-entitled guar
 
 
 ## By Smail Jusic
-Teacher (SVN: int, Name: varchar, units: int, BD: date)
-Class (id: varchar, year: date, NoS: int)
-Students (SVN: int, Name: varchar, BD: date, siblings: varchar, parents: varchar)
-recieves (grade: int)
-Curriculum (year: date)
-Subject (lessongroup: int, factor:double)
-Classroom (Number: int)
-Departments (Number: int)
+Teacher (SVN: int, Name: varchar, units: int, BD: date)</br>
+Class (id: varchar, year: date, NoS: int)</br>
+Students (SVN: int, Name: varchar, BD: date, siblings: varchar, parents: varchar)</br>
+recieves (grade: int)</br>
+Curriculum (year: date)</br>
+Subject (lessongroup: int, factor:double)</br>
+Classroom (Number: int)</br>
+Departments (Number: int)</br>
 
 ![Kunstwerk](kunstwerk.jpg)
