@@ -19,4 +19,4 @@ Subject (lessongroup: int, factor:double)
 Classroom (Number: int)
 Departments (Number: int)
 
-![Kunstwerk](kunstwerk.JPG)
+![Kunstwerk](kunstwerk.jpg)
