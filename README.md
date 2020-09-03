@@ -13,7 +13,6 @@ A parent is responsible for each pupil (unless the pupil is a self-entitled guar
 Teacher (T#: int, Name: varchar, units: int, BD: date)</br>
 Class (id: varchar, year: date, NoS: int)</br>
 Students (SVN: int, Name: varchar, BD: date, siblings: varchar, parents: varchar)</br>
-recieves (grade: int)</br>
 Curriculum (year: date)</br>
 Subject (subject_name: varchar, lessongroup: int, factor:double)</br>
 Classroom (Number: int)</br>
@@ -37,3 +36,4 @@ Subject/Teacher -> (subject_name, T#)
 
 ## 3NF
 
+Grade -> (lesson_group, factor, name)
