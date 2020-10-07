@@ -1,0 +1,40 @@
+## SQL
+
+CREATE TABLE teacher (
+    tID int PRIMARY KEY,
+    name varchar (50),
+    units int,
+    BD date
+);
+
+CREATE TABLE class (
+    id varchar (3) PRIMARY KEY,
+    year date,
+    NoS int
+);
+
+CREATE TABLE students (
+    SVN varchar (50) PRIMARY KEY,
+    name varchar (50),
+    BD date,
+    siblings varchar (50),
+    parents varchar (50)
+);
+
+CREATE TABLE curriculum (
+    year date PRIMARY KEY
+);
+
+CREATE TABLE subject (
+    subject_name varchar (50) PRIMARY KEY,
+    lessonsgroup int,
+    factor double
+);
+
+CREATE TABLE classroom (
+    number int PRIMARY KEY
+);
+
+CREATE TABLE departments (
+    number int PRIMARY KEY
+);
